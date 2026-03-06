@@ -1,0 +1,542 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(248, 249, 245), rgb(206, 193, 193));
+}
+.top{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(102, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottop{
+    width: 100%;
+    height: 95vh;
+    border: 2px solid black;
+}
+.bottoptop{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom right, rgb(228, 222, 222), rgb(255, 255, 255));
+    display: flex;
+    position: sticky;
+      animation-duration: 0.5s;
+    animation-play-state:running ;
+    animation-iteration-count:1 ;
+    animation-name: slidein;    
+}
+@keyframes slidein{
+    0%{
+        display: none;
+        margin-left: -4000px;
+    }
+    100%{
+       margin-left: 0px;
+    }
+}
+.leftside{
+    width: 20%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside{
+    width: 80%;
+    height: 10vh;
+  
+    display: flex;
+}
+.box{
+    width: 10%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gappers{
+    width: 15%;
+    height: 10vh;
+ 
+}
+.boxs1{
+     width: 5%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs1 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+    box-shadow: 0px 0px 4px;
+}
+.boxs1 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs1 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs2{
+     width: 5%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs2 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs2 img:hover{
+    background-color: rgb(89, 131, 248);
+}
+.boxs2 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs3 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs3 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs4{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs4 img{
+     box-shadow: 0px 0px 4px;
+}
+.boxs4 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.bottom{
+    width: 100%;
+    height: 90vh;
+    
+}
+.bgt{
+    width: 100%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(175, 156, 128);
+}
+.bgt h1{
+    animation-name: wind;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes wind{
+    0%{
+        rotate: 0deg;
+        transform: translateX(4000px);
+    }
+    90%{
+        rotate: 5deg;
+    }
+    100%{
+        rotate: 0deg;
+        transform: translateX(0px);
+    }
+}
+.bottomact{
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+}
+.left1{
+    width: 30%;
+    height: 70vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftact img{
+    width: 100%;
+    animation-duration: 0.7s;
+    animation-name: brr;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes brr{
+    0%{
+        transform: translateX(-4000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.right1{
+    width: 70%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right2{
+    width: 90%;
+    height: 60vh;
+  
+}
+.topt{
+    width: 100%;
+    height: 10vh;
+  
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topt h1{
+    animation-duration: 1s;
+    animation-name: big;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+@keyframes big{
+    0%{
+        transform: translateY(4000px);
+
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.bot{
+    width: 100%;
+    height: 50vh;
+    
+}
+.title{
+    width: 100%;
+    height: 5vh;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.title p{
+    font-size: 25px;
+    animation-name:big;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.title h2{
+    font-size: 25px;
+    animation-name:big;
+    animation-duration: 1.3s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.leftact{
+    width: 90%;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    filter: grayscale(100%);
+    transition: filter 1s ease-in;
+}
+.leftact:hover{
+    filter: grayscale(0);
+    filter: contrast(100);
+    
+}
+.more{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.butt{
+    width: 30%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.butt button{
+    width: 80%;
+    padding: 10px;
+    height: 8vh;
+    border-radius: 10px;
+    background-color: rgb(121, 164, 239);
+    border: none;
+    font-size: 20px;
+    
+    z-index: 199999;
+    animation-duration: 2s;
+    animation-name: button;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes button{
+    0%{
+        transform: translateY(4000px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.moreb{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(166, 189, 231);
+    z-index: 999;
+    position: absolute;
+    animation-name: Sonic;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    animation-iteration-count: 1;
+    display: none;
+}
+.moreb.play{
+    animation-play-state: running;
+}
+@keyframes Sonic{
+    0%{
+        scale: 0;
+        
+    }
+    10%{
+        transform: rotatey(1000deg);
+    }
+    100%{
+        scale: 1;
+         transform: rotatey(360000deg);
+    }
+}
+.moret{
+    width: 100%;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.bb{
+    width: 100%;
+    height: 60vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.bb1{
+    width: 30%;
+    height: 60vh;
+    background-color: rgb(137, 153, 217);
+    border-radius: 10px;
+}
+.bbu{
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+}
+.bbd{
+    width: 100%;
+    height: 15vh;
+  
+}
+.bt{
+    width: 100%;
+    height: 8vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+.bd{
+    width: 100%;
+    height: 7vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+.divt{
+    width: 70%;
+    height: 40vh;
+   
+    text-align: start;
+    
+}
+.divt p{
+    font-size: 22px;
+}
+.gap{
+    width: 100%;
+    border: 2px solid red;
+}
+
+/* Responsive */
+@media(max-width:376px){
+    .bg{
+        width: 100%;
+        height: 100vh;
+    }
+    .top{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .bottop{
+        width: 100%;
+        height: 10vh;
+    }
+    .bottoptop{
+        width: 92%;
+        height: 10vh;
+        overflow-x:scroll ;
+        gap: 30px;
+        padding-left: 30px;
+    }
+    .leftside{
+        width: 20%;
+        padding-left: 20px;
+        
+    }
+    .rightside{
+        width: 80%;
+        gap: 40px;
+       padding-right: 10px;
+    }
+    .leftside h1{
+        font-size: 30px;
+    }
+    .box{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .gapl{
+        display: none;
+    }
+    .boxs1{
+        width: 50%;
+    }
+    .boxs2{
+        width: 50%;
+    }
+    .boxs3{
+        width: 50%;
+    }
+    .boxs4{
+        width: 50%;
+    }
+    .bgt{
+     
+        font-size: 15px;
+    }
+    .topt{
+        font-size: 15px;
+        text-align: center;
+    }
+    .bottomact{
+        overflow: scroll;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .title{
+        overflow: scroll;
+        height: 40vh;
+    }
+    .left1{
+        width: 100%;
+    }
+   .right1{
+    width: 100%;
+    height: 40vh;
+   }
+   .right2{
+    height: 40vh;
+   }
+   .right1 h2{
+    display: none;
+   }
+   .bot{
+    height: 40vh;
+   }
+   
+   .butt{
+    
+    width: 60%;
+   }
+   .butt button{
+    width: 100%;
+   }
+   .leftact{
+    filter: grayscale(0%);
+   }
+   .bb{
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .bb1{
+    width: 100%;
+   }
+   .moret{
+  
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   }
+   .divt{
+    text-align: center;
+   }
+}

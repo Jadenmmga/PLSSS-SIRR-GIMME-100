@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(248, 249, 245), rgb(206, 193, 193));
+}
+.top{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(102, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottop{
+    width: 100%;
+    height: 95vh;
+    border: 2px solid black;
+}
+.bottoptop{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom right, rgb(228, 222, 222), rgb(255, 255, 255));
+    display: flex;
+    position: sticky;
+     animation-duration: 0.7s;
+    animation-play-state:running ;
+    animation-iteration-count:1 ;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    0%{
+        display: none;
+        margin-left: -4000px;
+    }
+    100%{
+       margin-left: 0px;
+    }
+}
+.leftside{
+    width: 20%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside{
+    width: 80%;
+    height: 10vh;
+  
+    display: flex;
+}
+.box{
+    width: 10%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gappers{
+    width: 15%;
+    height: 10vh;
+ 
+}
+.boxs1{
+     width: 5%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs1 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+    box-shadow: 0px 0px 4px;
+}
+.boxs1 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs1 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs2{
+     width: 5%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs2 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs2 img:hover{
+    background-color: rgb(89, 131, 248);
+}
+.boxs2 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs3 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs3 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs4{
+     width: 5%;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs4 img{
+     box-shadow: 0px 0px 4px;
+}
+.boxs4 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.bottom{
+    width: 100%;
+    height: 90vh;
+   
+}
+.botg{
+    width: 100%;
+    height: 5vh;
+   
+}
+.bott{
+    width: 100%;
+    height: 10vh;
+    
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bott h1{
+    animation-name: brr;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes brr{
+    0%{
+        scale: 0;
+        
+    }
+    100%{
+        scale: 1;
+    }
+}
+@keyframes brr2{
+    0%{
+        scale: 0;
+        rotate: 30deg;
+    }
+    100%{
+        scale: 1;
+    }
+}
+.bott p{
+    animation-name: brr2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.botbot{
+    width: 100%;
+    height: 75vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botbotact{
+    width: 100%;
+    height: 60vh;
+    
+    display: flex;
+
+    align-items: center;
+    overflow-x: scroll;
+    gap: 30px;
+}
+.boxes{
+    width: 35%;
+    height: 55vh;
+    background-color: bisque;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+.boxes{
+    animation-name: vwip;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes vwip{
+    0%{
+        transform: translateX(-2000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.invisb{
+    width: 20%;
+    height: 55vh;
+    
+}
+.bbl{
+    width: 100%;
+    height: 40vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drizzy{
+    width: 100%;
+    height: 15vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.drizzy button{
+    padding: 10px;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    box-shadow: 0px 4px 4px;
+    height: 7vh;
+    
+}
+.drizzy button:active{
+    box-shadow: 0px 0px 0px;
+}
+* ::-webkit-scrollbar{
+  overflow-x: hidden;
+}
+/* Responsive */
+@media(max-width:376px){
+  .bg{
+        width: 100%;
+        height: 100vh;
+    }
+    .top{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .bottop{
+        width: 100%;
+        height: 10vh;
+    }
+    .bottoptop{
+        width: 92%;
+        height: 10vh;
+        overflow-x:scroll ;
+        gap: 30px;
+        padding-left: 30px;
+    }
+    .leftside{
+        width: 20%;
+        padding-left: 20px;
+        
+    }
+    .rightside{
+        width: 80%;
+        gap: 40px;
+       padding-right: 10px;
+    }
+    .leftside h1{
+        font-size: 30px;
+    }
+    .box{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .gapl{
+        display: none;
+    }
+    .boxs1{
+        width: 50%;
+    }
+    .boxs2{
+        width: 50%;
+    }
+    .boxs3{
+        width: 50%;
+    }
+    .boxs4{
+        width: 50%;
+    }
+    .bott{
+        font-size: 15px;
+    }
+    .boxes{
+        width: 100%;
+    }
+    .drizzy button{
+        width: 40%;
+    }
+    .drizzy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .invisb{
+        display: none;
+    }
+    .bott p{
+        display: none;
+    }
+}

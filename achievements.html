@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="achievements.css">
+    <link rel="shortcut icon" href="Actualicon.png" type="image/x-icon">
+     <audio src="fahhhhhhhh-earrape.mp3" id="AHHH"></audio>
+</head>
+<body>
+    <div class="bg">
+        <div class="Achieved" id="Show">
+            <div class="all">
+                <div class="inall">
+                    <div class="boxa">
+                        <div class="b1">
+                            <img src="bombo (1).jpg" alt="" width="100%" height="320">
+                        </div>
+                        <div class="b2">
+                            <div class="b21">
+                                <h1>Got a thumbs up from a person!</h1>
+                            </div>
+                            <div class="b22">
+                                <button onclick="Close()">Close Popup</button>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="boxa">
+                        <div class="b1">
+                            <img src="bombo (2).jpg" alt="" width="100%" height="320">
+                        </div>
+                        <div class="b2">
+                            <div class="b21">
+                                <h1>Very unproffesional photographer.</h1>
+                            </div>
+                            <div class="b22">
+                                <button onclick="Close()">Close Popup</button>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="boxa">
+                        <div class="b1">
+                            <img src="bombo (3).jpg" alt="" width="100%" height="320">
+                        </div>
+                        <div class="b2">
+                            <div class="b21">
+                                <h1 style="font-size: 20px;">Took the middest photo in school.</h1>
+                            </div>
+                            <div class="b22">
+                               <button onclick="Close()">Close Popup</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottoptop">
+            <div class="gapl">
+                    
+                </div>
+            <div class="leftside">
+                 <h1 style="color: rgb(49, 230, 149); font-size: 40px;">Sheeple</h1>
+            </div>
+            <div class="rightside">
+                <div class="box">
+                    <a href="locnin2.html" style="color: rgb(42, 238, 160); text-decoration: none; font-weight: bold;" >Home</a>
+                </div>
+                 <div class="box">
+                    <a href="Pages.html" style="color: rgb(0, 0, 0);  text-decoration: none; font-weight: bold;" >Pages</a>
+                </div>
+                 <div class="box">
+                    <a href="about.html" style="color: rgb(0, 0, 0);  text-decoration: none; font-weight: bold;" >About</a>
+                </div>
+                 <div class="box">
+                    <a href="Creators.html" style="color: rgb(0, 0, 0);  text-decoration: none; font-weight: bold;" >Creators</a>
+                </div>
+                 <div class="box">
+                    <a href="songs.html" style="color: rgb(0, 0, 0);  text-decoration: none; font-weight: bold;" >Songs</a>
+                </div>
+                 <div class="box">
+                    <a href="Portfolio.html" style="color: rgb(0, 0, 0);  text-decoration: none; font-weight: bold;" >Portfolio</a>
+                </div>
+                <div class="gappers">
+
+                </div>
+                 <div class="boxs1">
+                    <a href="rick.html"><img src="user.png" alt="" height="30" style="border-radius: 50%;"/></a>
+                </div>
+                 <div class="boxs2">
+                    <img src="circle.png" alt="" height="30" style="border-radius: 50%;"onclick="FAHHHs()">
+                </div>
+                 <div class="boxs3">
+                      <a href="eps.html"><img src="sharing.png" alt="" height="30" style="border-radius: 50%;"/></a>
+                </div>
+                <div class="boxs4">
+                    <a href="Hormatkeprabowo.html"><img src="indonesia.png" alt="" height="30" style="border-radius: 50%;" target="_blank"/></a>
+                </div>
+            </div>
+    </div>
+    <div class="gap">
+
+    </div>
+    <div class="title">
+        <div class="t1">
+             <h1>My achievements</h1>
+
+        </div>
+        <div class="t2">
+             <button onclick="Achieve()">Press me to show</button>
+        </div>
+    </div>
+    </div>
+    <script>
+        function Achieve(){
+            var showa = document.getElementById("Show")
+            if(showa.style.display === "none"){
+                showa.style.display = "flex"
+                showa.classList.add("play")
+            } else{
+                showa.style.display = "none"
+                showa.style.animation = "none"
+                requestAnimationFrame(() => {
+                            showa.style.animation = ""
+                        });
+                        showa.style.visibility = "";
+            }
+        }
+        function Close(){
+            var showa = document.getElementById("Show")
+            if(showa.style.display === "flex"){
+                showa.style.display = "none"
+            }
+        }
+        function Nothing(){
+            alert("This does nothing")
+        }
+         function FAHHHs(){
+                    var FAHH = document.getElementById("AHHH")
+                    FAHH.play();
+                    setTimeout(() => {
+                        alert("LMAOOO")
+                    }, 3000);
+                }
+    </script>
+</body>
+</html>

@@ -1,0 +1,571 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(248, 249, 245), rgb(206, 193, 193));
+}
+
+.top{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(102, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottop{
+    width: 100%;
+    height: 95vh;
+    
+}
+.bottoptop{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom right, rgb(228, 222, 222), rgb(255, 255, 255));
+    display: flex;
+    position: sticky;
+        animation-duration: 0.5s;
+    animation-play-state:running ;
+    animation-iteration-count:1 ;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    0%{
+        display: none;
+        margin-left: -4000px;
+    }
+    100%{
+       margin-left: 0px;
+    }
+}
+.leftside{
+    width: 20%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside{
+    width: 80%;
+    height: 10vh;
+  
+    display: flex;
+}
+.box{
+    width: 10%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gappers{
+    width: 15%;
+    height: 10vh;
+ 
+}
+.boxs1{
+     width: 5%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs1 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+    box-shadow: 0px 0px 4px;
+}
+.boxs1 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs1 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs2{
+     width: 5%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs2 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs2 img:hover{
+    background-color: rgb(89, 131, 248);
+}
+.boxs2 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs3 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs3 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs4{
+     width: 5%;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs4 img{
+     box-shadow: 0px 0px 4px;
+}
+.boxs4 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.bottom{
+    width: 100%;
+    height: 90vh;
+    
+}
+.botgap{
+    width: 100%;
+    height: 5vh;
+    
+}
+.bottomtit{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-name: slides;
+}
+@keyframes slides{
+    0%{
+        transform: translateX(4000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.bot{
+    width: 100%;
+    height: 75vh;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b1{
+   width: 30%;
+    height: 20vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b2{
+    animation-name: up;
+    animation-duration: 1.6s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.b3{
+    animation-name: up;
+    animation-duration: 1.2s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.b4{
+    animation-name: up;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.b5{
+    animation-name: up;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.b1{
+    animation-name: up;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes up{
+    0%{
+        transform: translateY(4000px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+.b2{
+     width: 30%;
+    height: 20vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b3{
+    width: 30%;
+    height: 20vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b4{
+    width: 30%;
+    height: 20vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b5{
+      width: 30%;
+    height: 20vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ls{
+    width: 70%;
+    height: 15vh;
+    background-color: rgb(159, 173, 205);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.thin{
+    width: 25%;
+    height: 25vh;
+    background-color: rgb(159, 173, 205);
+    z-index: 999;
+    position: absolute;
+    animation-name: Widen;
+    animation-iteration-count: 1;
+     animation-duration: 0.4s;
+    animation-play-state: paused;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+}
+.thin.play{
+    animation-play-state: running;
+}
+.thin2{
+    width: 25%;
+    height: 25vh;
+    background-color: rgb(159, 173, 205);
+    z-index: 999;
+    position: absolute;
+    animation-name: Widen;
+    animation-iteration-count: 1;
+     animation-duration: 0.4s;
+    animation-play-state: paused;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+}
+.thin2.play{
+    animation-play-state: running;
+}
+.thin3{
+    width: 25%;
+    height: 25vh;
+    background-color: rgb(159, 173, 205);
+    z-index: 999;
+    position: absolute;
+    animation-name: Widen;
+    animation-iteration-count: 1;
+     animation-duration: 0.4s;
+    animation-play-state: paused;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+}
+.thin4.play{
+    animation-play-state: running;
+}
+.thin4{
+    width: 25%;
+    height: 25vh;
+    background-color: rgb(159, 173, 205);
+    z-index: 999;
+    position: absolute;
+    animation-name: Widen;
+    animation-iteration-count: 1;
+     animation-duration: 0.4s;
+    animation-play-state: paused;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+}
+.thin5.play{
+    animation-play-state: running;
+}
+.thin5{
+    width: 25%;
+    height: 25vh;
+    background-color: rgb(159, 173, 205);
+    z-index: 999;
+    position: absolute;
+    animation-name: Widen;
+    animation-iteration-count: 1;
+    animation-duration: 0.4s;
+    animation-play-state: paused;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.thin3.play{
+    animation-play-state: running;
+}
+.lefts{
+    width: 10%;
+    height: 15vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.rights{
+    width: 90%;
+    height: 15vh;
+    
+}
+.r1{
+    width: 100%;
+    height: 7.5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.r2{
+    width: 100%;
+    height: 7.5vh;
+   
+    text-align: center;
+     display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 14px;
+    
+}
+.close{
+    width: 100%;
+    height: 5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close button{
+    width: 80%;
+    height: 5vh;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 4px 4px;
+}
+.close button:active{
+    box-shadow: 0px 0px 0px;
+}
+.botbpt{
+    width: 80%;
+    height: 70vh;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+@keyframes Widen{
+    0%{
+        scale: 0;
+    }100%{
+        scale: 1;
+    }
+}
+/* Responsive */
+@media(max-width:376px){
+    .bg{
+        width: 100%;
+        height: 165vh;
+    }
+    .top{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .bottop{
+        width: 100%;
+        height: 10vh;
+    }
+    .bottoptop{
+        width: 92%;
+        height: 10vh;
+        overflow-x:scroll ;
+        gap: 30px;
+        padding-left: 30px;
+    }
+    .leftside{
+        width: 20%;
+        padding-left: 20px;
+        
+    }
+    .rightside{
+        width: 80%;
+        gap: 40px;
+       padding-right: 10px;
+    }
+    .leftside h1{
+        font-size: 30px;
+    }
+    .box{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .gapl{
+        display: none;
+    }
+    .boxs1{
+        width: 50%;
+    }
+    .boxs2{
+        width: 50%;
+    }
+    .boxs3{
+        width: 50%;
+    }
+    .boxs4{
+        width: 50%;
+    }
+    .bottomtit{
+      
+        font-size: 10px;
+        text-align: center;
+    }
+   
+    .rights{
+        width: 70%;
+        
+    }
+    .lefts{
+        margin-left: 10px;
+    }
+    .r1 p{
+        font-size: 15px;
+    }
+    .close button{
+        width: 90%;
+    }
+    .close{
+      
+        width: 20%;
+    }
+    .ls{
+        width: 25%;
+    }
+    .r2 h1{
+        font-size: 20px;
+    }
+    .r2 h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .r2{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .b1{
+        width: 100%;
+    }
+      .b2{
+        width: 100%;
+    }
+      .b3{
+        width: 100%;
+    }
+      .b4{
+        width: 100%;
+    }
+      .b5{
+        width: 100%;
+    }
+    .ls{
+        width: 80%;
+    }
+    .thin{
+        width: 90%;
+    }
+    .thin2{
+        width: 90%;
+    }
+    .thin3{
+        width: 90%;
+    }
+    .thin4{
+        width: 90%;
+    }
+    .thin5{
+        width: 90%;
+    }
+    .botbpt{
+        gap: 50px;
+    }
+}

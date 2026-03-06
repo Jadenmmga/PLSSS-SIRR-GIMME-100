@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(248, 249, 245), rgb(206, 193, 193));
+}
+.top{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(102, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottop{
+    width: 100%;
+    height: 95vh;
+    border: 2px solid black;
+}
+.bottoptop{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom right, rgb(228, 222, 222), rgb(255, 255, 255));
+    display: flex;
+    position: sticky;
+    animation-duration: 0.5s;
+    animation-play-state:running ;
+    animation-iteration-count:1 ;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    0%{
+        display: noene;
+        margin-left: -4000px;
+    }
+    100%{
+       
+    }
+}
+.leftside{
+    width: 20%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside{
+    width: 80%;
+    height: 10vh;
+  
+    display: flex;
+}
+.box{
+    width: 10%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gappers{
+    width: 15%;
+    height: 10vh;
+ 
+}
+.boxs1{
+     width: 5%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs1 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+    box-shadow: 0px 0px 4px;
+}
+.boxs1 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs1 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs2{
+     width: 5%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs2 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs2 img:hover{
+    background-color: rgb(89, 131, 248);
+}
+.boxs2 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs3 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs3 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs4{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs4 img{
+     box-shadow: 0px 0px 4px;
+}
+.boxs4 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.bottom{
+    width: 100%;
+    height: 90vh;
+  
+}
+.bott{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bott button{
+     animation-name: botup;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes botup{
+    0%{
+        margin-bottom: 4000px;
+        
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+}
+.ftl{
+    width: 100%;
+    height: 80vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hid{
+    width: 70%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     animation-name: RAH;
+    animation-play-state: paused;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+.hid2{
+    width: 70%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.hid h1{
+    position: absolute;
+    display: flex;
+    animation-name: textbrr;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+}
+.hid h1.play{
+    animation-play-state: running;
+}
+@keyframes textbrr{
+    0%{
+        scale: 0.2;
+    }
+    50%{
+        scale: 2;
+        rotate: -72000deg;
+    }
+    100%{
+        scale: 1;
+        rotate: 72000deg;
+    }
+}
+#theend{
+    display: none;
+}
+.hid.play{
+    animation-play-state: running;
+}
+@keyframes RAH{
+    0%{
+        scale: 0.2;
+        width: 200%;
+    }
+    30%{
+        display: flex;
+        scale: 5;
+        rotate: 72000deg;
+    }
+    60%{
+        scale: 1;
+        rotate: -72000deg;
+        width: 300%;
+    }
+}
+.hid2{
+    width: 70%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 7px;
+    background-image: linear-gradient(to right bottom, red, white);
+    color: black;
+    box-shadow: 0px 4px 2px;
+    border-radius:5px 5px 5px ;
+    width: 30%;
+    height: 7vh;
+    border: none;
+    
+}
+button:active{
+    box-shadow: 0px 0px 0px;
+}
+@media(max-width:376px){
+    .bg{
+        width: 100%;
+        height: 100vh;
+    }
+    .top{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .bottop{
+        width: 100%;
+        height: 10vh;
+    }
+    .bottoptop{
+        width: 92%;
+        height: 10vh;
+        overflow-x:scroll ;
+        gap: 30px;
+        padding-left: 30px;
+    }
+    .leftside{
+        width: 20%;
+        padding-left: 20px;
+        
+    }
+    .rightside{
+        width: 80%;
+        gap: 40px;
+       padding-right: 10px;
+    }
+    .leftside h1{
+        font-size: 30px;
+    }
+    .box{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .gapl{
+        display: none;
+    }
+    .boxs1{
+        width: 50%;
+    }
+    .boxs2{
+        width: 50%;
+    }
+    .boxs3{
+        width: 50%;
+    }
+    .boxs4{
+        width: 50%;
+    }
+   .bott button{
+    width: 90%;
+   }
+  
+}

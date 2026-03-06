@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(248, 249, 245), rgb(206, 193, 193));
+}
+.top{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(102, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottop{
+    width: 100%;
+    height: 95vh;
+   
+}
+.bottoptop{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom right, rgb(228, 222, 222), rgb(255, 255, 255));
+    display: flex;
+    position: sticky;
+      animation-duration: 0.5s;
+    animation-play-state:running ;
+    animation-iteration-count:1 ;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    0%{
+        display: none;
+        margin-left: -4000px;
+    }
+    100%{
+       margin-left: 0px;
+    }
+}
+.leftside{
+    width: 20%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside{
+    width: 80%;
+    height: 10vh;
+  
+    display: flex;
+}
+.box{
+    width: 10%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gappers{
+    width: 15%;
+    height: 10vh;
+ 
+}
+.boxs1{
+     width: 5%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs1 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+    box-shadow: 0px 0px 4px;
+}
+.boxs1 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs1 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs2{
+     width: 5%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs2 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs2 img:hover{
+    background-color: rgb(89, 131, 248);
+}
+.boxs2 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs3 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs3 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs4{
+     width: 5%;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs4 img{
+     box-shadow: 0px 0px 4px;
+}
+.boxs4 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.bottom{
+    width: 100%;
+    height: 70vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gap{
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    animation-name: slider;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+.gap h1{
+     animation-name: slider;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes slider{
+    0%{
+        margin-right: -4000px;
+        display: none;
+    }
+    100%{
+        margin-right: 0px;
+        display: flex;
+    }
+}
+.actboxes{
+    width: 95%;
+    height: 55vh;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.boxboi{
+    width: 20%;
+    height: 25vh;
+    border-radius: 10px;
+    background-color: rgb(217, 217, 179);
+    animation-name: box;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+@keyframes box{
+    0%{
+        margin-top: 4000px;
+
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+.b1{
+    width: 100%;
+    height:16vh ;
+ 
+}
+.b2{
+    width: 100%;
+    height:8vh ;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+.b2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: lightslategray;
+}
+@media(max-width:376px){
+    .bg{
+        width: 100%;
+        height: 100vh;
+    }
+    .top{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .bottop{
+        width: 100%;
+        height: 10vh;
+    }
+    .bottoptop{
+        width: 92%;
+        height: 10vh;
+        overflow-x:scroll ;
+        gap: 30px;
+        padding-left: 30px;
+    }
+    .leftside{
+        width: 20%;
+        padding-left: 20px;
+        
+    }
+    .rightside{
+        width: 80%;
+        gap: 40px;
+       padding-right: 10px;
+    }
+    .leftside h1{
+        font-size: 30px;
+    }
+    .box{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .gapl{
+        display: none;
+    }
+    .boxs1{
+        width: 50%;
+    }
+    .boxs2{
+        width: 50%;
+    }
+    .boxs3{
+        width: 50%;
+    }
+    .boxs4{
+        width: 50%;
+    }
+    .gap{
+        font-size: 15px;
+        text-align: center;
+    }
+    .actboxes{
+        width: 100%;
+        overflow-y:scroll;
+    }
+    .boxboi{
+        width: 100%;
+        height: 40vh;
+    }
+    .b1{
+        width: 100%;
+        height: 30vh;
+    }
+    .b1 img{
+        height: 100%;
+    }
+}

@@ -1,0 +1,526 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(248, 249, 245), rgb(206, 193, 193));
+}
+.top{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(102, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     animation-duration: 0.5s;
+    animation-play-state:running ;
+    animation-iteration-count:1 ;
+    animation-name: slidein;
+}
+.bottop{
+    width: 100%;
+    height: 95vh;
+    
+}
+.bottoptop{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom right, rgb(228, 222, 222), rgb(255, 255, 255));
+    display: flex;
+     animation-duration: 0.5s;
+    animation-play-state:running ;
+    animation-iteration-count:1 ;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    0%{
+        display: none;
+        margin-left: -4000px;
+    }
+    100%{
+       margin-left: 0px;
+    }
+}
+.leftside{
+    width: 20%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside{
+    width: 80%;
+    height: 10vh;
+  
+    display: flex;
+}
+.box{
+    width: 10%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gappers{
+    width: 15%;
+    height: 10vh;
+ 
+}
+.boxs1{
+     width: 5%;
+    height: 10vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs1 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+    box-shadow: 0px 0px 4px;
+}
+.boxs1 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs1 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs2{
+     width: 5%;
+    height: 10vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs2 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs2 img:hover{
+    background-color: rgb(89, 131, 248);
+}
+.boxs2 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3{
+     width: 5%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs3 img{
+    transition: background-color 0.2s ease;
+    background-color: white;
+     box-shadow: 0px 0px 4px;
+}
+.boxs3 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.boxs3 img:hover{
+    background-color: rgb(86, 137, 239);
+}
+.boxs4{
+     width: 5%;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs4 img{
+     box-shadow: 0px 0px 4px;
+}
+.boxs4 img:active{
+     box-shadow: 0px 0px 0px;
+}
+.bottomers{
+    width: 100%;
+    height: 85vh;
+    
+}
+.topsec{
+    width: 100%;
+    height: 65vh;
+
+}
+.botsec{
+    width: 100%;
+    height: 5vh;
+    
+}
+.img{
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(to bottom right, rgb(205, 179, 179), rgb(99, 133, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: blob;
+    animation-duration: 0.6s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+@keyframes blob{
+    0%{
+        transform: translateX(4000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.actspace{
+    width: 90%;
+    height: 55vh;
+  
+    display: flex;
+    align-items: center;
+}
+.leftb{
+    width: 55%;
+    height: 55vh;
+
+}
+.rightb{
+    width: 45%;
+    height: 60vh;
+  
+}
+.l1{
+    width: 100%;
+    height: 35vh;
+    
+}
+.l2{
+    width: 100%;
+    height: 20vh;
+    
+}
+.l11{
+    width: 100%;
+    height: 17.5vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(189, 226, 254);
+}
+.l12{
+    width: 100%;
+    height: 17.5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(189, 226, 254);
+}
+.l21{
+    width: 100%;
+    height: 4vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l22{
+    width: 100%;
+    height: 16vh;
+
+}
+.button{
+    width: 100%;
+    height: 14vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button{
+    padding: 10px;
+    width: 100%;
+    height: 8vh;
+    border: none;
+    background-color: rgb(189, 226, 254);
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(44, 44, 217);
+    box-shadow: 0px 4px 4px;
+}
+.button a{
+    width: 50%;
+}
+.button button:active{
+    box-shadow: 0px -4px;
+}
+.imga{
+    width: 60%;
+    height: 55vh;
+    background-image: linear-gradient(to bottom right, rgb(232, 93, 105), rgb(99, 133, 255));
+    border-radius: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+}
+.rightb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actim{
+    width: 80%;
+    height: 40vh;
+ 
+    display: flex;
+    align-items: end;
+}
+.botboxes{
+    width: 100%;
+    height: 13vh;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 15px;
+}
+.boxb{
+    width: 20%;
+    height: 17vh;
+    background-color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 1.2s;
+    animation-name: up;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+@keyframes up{
+    0%{
+        transform: translateY(4000px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.botac{
+    width: 80%;
+    height: 15vh;
+
+    text-align: center;
+}
+.register{
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(246, 246, 218);
+    position: absolute;
+    z-index: 999;
+    border-radius: 20px;
+    animation-name: Register;
+    animation-play-state: paused;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    display: none;
+    flex-wrap: wrap;
+}
+.register.play{
+    animation-play-state: running;
+}
+@keyframes Register{
+    0%{
+        scale: 0;
+        flex-wrap: wrap;
+    }
+    100%{
+        scale: 1;
+       
+    }
+}
+.title{
+    width: 100%;
+    height: 10vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.gap{
+    width: 100%;
+    height: 5vh;
+
+}
+.name{
+    width: 100%;
+    height: 8vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name input{
+    width: 50%;
+    height: 4.5vh;
+    background-color: rgb(203, 171, 171);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nameact{
+    width: 60%;
+    height: 4.5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+}
+.thin{
+    width: 50%;
+    height: 4.5vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:10px ;
+     border-bottom-left-radius:10px ;
+}
+.next{
+    width: 100%;
+    height: 20vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next button{
+    width: 40%;
+    height: 6vh;
+    background-color: rgb(246, 223, 191);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px;
+}
+.next button:active{
+    box-shadow: 0px 0px 0px;
+}
+/* Responsive */
+@media(max-width:376px){
+    .bg{
+        width: 100%;
+        height: 100vh;
+    }
+    .top{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .bottop{
+        width: 100%;
+        height: 10vh;
+    }
+    .bottoptop{
+        width: 92%;
+        height: 10vh;
+        overflow-x:scroll ;
+        gap: 30px;
+        padding-left: 30px;
+    }
+    .leftside{
+        width: 20%;
+       
+        
+    }
+    .rightside{
+        width: 80%;
+        gap: 40px;
+       
+    }
+    .leftside h1{
+        font-size: 30px;
+    }
+    .box{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .gapl{
+        display: none;
+    }
+    .boxs1{
+        width: 50%;
+    }
+    .boxs2{
+        width: 50%;
+    }
+    .boxs3{
+        width: 50%;
+    }
+    .boxs4{
+        width: 50%;
+    }
+    .img{
+        width: 100%;
+        height: 80vh;
+    }
+    .register{
+        width: 100%;
+    }
+   .l11{
+  
+    font-size: 25px;
+    text-align: center;
+   }
+   .leftb{
+    width: 100%;
+   }
+   .l1{
+ 
+    height: 40vh;
+    width: 100%;
+   }
+   .actspace{
+    
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .rightb{
+    
+    width: 100%;
+   }
+    .l12{
+ 
+    font-size: 25px;
+    display: flex;
+    align-items: start;
+    height: 13vh;
+   }
+    .botboxes{
+       display: none;
+    }
+    .imga{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .button a{
+        width: 60%;
+    }
+    .l21{
+        text-align: center;
+    }
+
+}
